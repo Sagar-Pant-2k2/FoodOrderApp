@@ -260,3 +260,20 @@ h1 {
     transform: translateY(0);
   }
 }
+
+.error-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  
+  width: 100%;
+  color: red;
+  background-color: rgb(238, 179, 154);
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
